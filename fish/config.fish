@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 set fish_greeting
+set -x PATH $PATH ~/.config/.nvim.appimage
 
 set SPACEFISH_PROMPT_ADD_NEWLINE false
 
@@ -21,6 +22,7 @@ alias tmd='tmux detach'
 alias tml='tmux ls'
 alias tmkw='tmux kill-window -t'
 alias tmks='tmux kill-session -t'
+alias tmat='tmux attach-session -t'
 
 # Generated for envman. Do not edit.
 test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
@@ -28,4 +30,3 @@ test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
 # added by Webi for pyenv
 status is-login; and pyenv init --path | source
 status is-interactive; and pyenv init - | source
-
