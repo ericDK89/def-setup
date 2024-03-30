@@ -15,7 +15,9 @@ alias python='python3'
 alias pip='pip3'
 
 alias ls='lsd'
+alias lst='lsd --tree'
 
+alias tm='tmux -f ~/.config/.tmux.conf'
 alias tm='tmux'
 alias tma='tmux attach'
 alias tmd='tmux detach'
