@@ -18,6 +18,7 @@ alias ls='lsd'
 alias lst='lsd --tree'
 
 alias tm='tmux -f ~/.config/.tmux.conf'
+tm
 alias tm='tmux'
 alias tma='tmux attach'
 alias tmd='tmux detach'
